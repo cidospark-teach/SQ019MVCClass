@@ -1,0 +1,43 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/*My styles**/
+.users-panel, .user-card-header, .user-card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-card{
+    width: 330px;
+    margin: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: #eeeeee;
+    overflow: hidden;
+}
+.user-card-img{
+    height: 350px;
+    width: 100%;
+}
+.user-card-header, .user-card-footer{
+    height: 70px;
+    padding: 10px;
+    background: white;
+}
